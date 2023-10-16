@@ -1,0 +1,4 @@
+city='grodno', name='tourist', amount=4
+city='minsk', name='beijing', amount=3
+city='minsk', name='horizont', amount=4
+city='baranovichi', name='baranovichi', amount=2
