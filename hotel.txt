@@ -1,4 +1,7 @@
-grodno tourist 4
 minsk horizont 4
 minsk beijing 3
 baranovichi baranovichi 2
+grodno tourist 4
+zhodino tourist 3
+minsk vika 3
+baranovichi beijing 4

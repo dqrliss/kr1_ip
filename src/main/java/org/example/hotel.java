@@ -66,7 +66,7 @@ public class hotel implements Comparable<hotel>{
     public int compareTo(hotel other) {
         return CharSequence.compare(this.city, other.city);
     }
-//    @Override
+    //    @Override
 //    public boolean equals(Object o) {
 //        if (this == o) return true;
 //        if (o == null || getClass() != o.getClass()) return false;

@@ -15,16 +15,25 @@ public class Main {
         hotel hotel2 = new hotel();
         hotel hotel3 = new hotel();
         hotel hotel4 = new hotel();
+        hotel hotel5 = new hotel();
+        hotel hotel6 = new hotel();
+        hotel hotel7 = new hotel();
         hotel1.input(in);
         hotel2.input(in);
         hotel3.input(in);
         hotel4.input(in);
+        hotel5.input(in);
+        hotel6.input(in);
+        hotel7.input(in);
         in.close();
         ArrayList<hotel> hotels = new ArrayList<>();
         hotels.add(hotel1);
         hotels.add(hotel2);
         hotels.add(hotel3);
         hotels.add(hotel4);
+        hotels.add(hotel5);
+        hotels.add(hotel6);
+        hotels.add(hotel7);
         Collections.sort(hotels);
         for (hotel h: hotels) {
             System.out.println(h.getCity() + " " + h.getName() + " " + h.getAmount());
@@ -32,7 +41,7 @@ public class Main {
         int index = 0;
         ArrayList<hotel> temp = new ArrayList<>();
         while (true) {
-            index = Collections.binarySearch(hotels, new hotel("minsk"));
+            index = Collections.binarySearch(hotels, new hotel("mins"));
             if (index > -1) {
                 System.out.println("\n" + hotels.get(index).getName() + " " + hotels.get(index).getAmount() + "\n");
                 temp.add(hotels.get(index));
